@@ -9,18 +9,19 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: victor dante fonseca oliveira
+- Matricula: 909385
+- Proposta de projeto escolhida:1. Pessoas e Produções	Pessoa	Publicações / Obras / Projetos	Autores   e livros, pesquisadores e artigos, artistas e álbuns
+- Breve descrição sobre seu projeto:Site de discografia da banda Nirvana com layout responsivo usando Bootstrap 5.3
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Desktop](public/desktop.jpeg)
+
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Mobile](public/Mobile.jpeg)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
