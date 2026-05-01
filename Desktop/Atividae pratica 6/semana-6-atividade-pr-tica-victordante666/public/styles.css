@@ -59,9 +59,7 @@ header form.search button:hover {
 
 /* ===== LAYOUT ===== */
 
-.layout {
-  display: flex;
-}
+
 
 /* ===== NAV ===== */
 
@@ -161,11 +159,6 @@ main {
 
 /* ===== GRID DE ÁLBUNS ===== */
 
-section.albums {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
 
 article.album-card {
   background-color: #2a2a2a;
