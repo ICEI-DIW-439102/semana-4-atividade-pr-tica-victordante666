@@ -6,8 +6,6 @@ body {
   padding: 0;
 }
 
-/* ===== HEADER ===== */
-
 header {
   background-color: #111111;
   border-bottom: 3px solid #ffcc00;
@@ -17,64 +15,21 @@ header {
 
 header h1 {
   font-size: 42px;
-  color: #ffcc00;
+  color: #ffcc00 !important;
   margin: 0;
   letter-spacing: 5px;
 }
 
-header .subtitulo {
+.subtitulo {
   font-size: 14px;
-  color: #aaaaaa;
+  color: #aaaaaa !important;
   margin: 5px 0 12px 0;
-}
-
-header form.search {
-  display: inline-flex;
-  gap: 6px;
-  margin-top: 8px;
-}
-
-header form.search input[type="text"] {
-  padding: 6px 10px;
-  font-size: 14px;
-  border: 1px solid #555555;
-  background-color: #333333;
-  color: #dddddd;
-  width: 220px;
-}
-
-header form.search button {
-  padding: 6px 14px;
-  background-color: #ffcc00;
-  color: #111111;
-  border: none;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-header form.search button:hover {
-  background-color: #e6b800;
-}
-
-/* ===== LAYOUT ===== */
-
-
-
-/* ===== NAV ===== */
-
-nav {
-  width: 200px;
-  min-width: 200px;
-  background-color: #1a1a1a;
-  border-right: 2px solid #333333;
-  padding: 20px 15px;
 }
 
 nav .nav-label {
   display: block;
   font-size: 11px;
-  color: #ffcc00;
+  color: #ffcc00 !important;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 8px;
@@ -82,7 +37,7 @@ nav .nav-label {
 
 nav a {
   display: block;
-  color: #cccccc;
+  color: #cccccc !important;
   text-decoration: none;
   font-size: 14px;
   padding: 7px 8px;
@@ -91,13 +46,13 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffcc00;
+  color: #ffcc00 !important;
   border-left-color: #ffcc00;
   background-color: #2a2a2a;
 }
 
 nav a.active {
-  color: #ffcc00;
+  color: #ffcc00 !important;
   border-left-color: #ffcc00;
 }
 
@@ -115,7 +70,7 @@ nav form.login {
 
 nav form.login label {
   font-size: 12px;
-  color: #ffcc00;
+  color: #ffcc00 !important;
 }
 
 nav form.login input {
@@ -142,8 +97,6 @@ nav form.login button:hover {
   background-color: #e63333;
 }
 
-/* ===== MAIN ===== */
-
 main {
   flex: 1;
   padding: 25px;
@@ -157,13 +110,9 @@ main {
   margin-bottom: 20px;
 }
 
-/* ===== GRID DE ÁLBUNS ===== */
-
-
 article.album-card {
   background-color: #2a2a2a;
   border: 1px solid #444444;
-  position: relative;
 }
 
 article.album-card img {
@@ -194,8 +143,6 @@ article.album-card img {
   line-height: 1.6;
   margin: 0;
 }
-
-/* ===== FOOTER ===== */
 
 footer {
   background-color: #111111;
